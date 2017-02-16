@@ -1,0 +1,20 @@
+{
+  "name": "electro-animate",
+  "version": "1.0.0",
+  "description": "This repository contains the source code used in the [Viewing Webcam Feeds and Grabbing Still Frames in a Modern Way](http://tangiblejs.com/posts/viewing-webcam-feeds-and-grabbing-still-frames-in-a-modern-way)  tutorial from TangibleJS.",
+  "main": "main.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://daniel_bell@bitbucket.org/daniel_bell/electro-animate.git"
+  },
+  "author": "Dan Bell",
+  "license": "ISC",
+
+  "devDependencies": {
+    "electron": "^1.4.15"
+  }
+}

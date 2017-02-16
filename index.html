@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Electron Webcam App</title>
+    <style>
+      #webcam, #capture {
+        display: inline-block;
+        border: solid 1px black;
+        width: 960px;
+        height: 540px
+      }
+      /* #webcam{ transform: scaleX(-1); } */
+      #dropdown { display: block; }
+    </style>
+      <link rel="stylesheet" href="canvas.css">
+
+  </head>
+
+  <body>
+    <p> <select name="dropdown" id="dropdown"></select></p>
+
+    <video id="webcam"></video>
+
+    <canvas id="capture" class="canvas__canvas" width="960" height="540"></canvas>
+
+    <p>Click the video feed to capture a frame!</p>
+
+    <script src="script.js"></script>
+
+
+</html>
